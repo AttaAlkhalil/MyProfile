@@ -1,0 +1,240 @@
+
+*{
+margin: 0px;
+padding: 0px;
+
+
+}
+
+body{
+background-image: url(./img/bacground1.jpg);
+background-repeat: no-repeat;
+background-attachment:fixed ;
+
+background-size:cover ;
+width: 1080px;
+}
+
+/**----------------------- imag/*/
+.imag{
+margin-top:160px ;
+width: 100px;
+height: 100px;
+margin-left: 65%;
+position: absolute;
+
+}
+
+
+/*--------- mycv*/
+.mycv{
+width: 150px;
+height: 50px;
+margin-right:30px ;
+transition: 1s;
+text-decoration: none;
+font-size: 25px; 
+color:rgb(255, 255, 255);
+}
+.mycv:hover{
+  margin-right: 25px;
+text-decoration: underline;
+color:rgb(117, 162, 196);
+text-shadow: 0 10px 10px rgb(0, 0, 0);
+}
+
+/*-------- plagrph*/
+
+.plagrav{
+font-size: 20px;
+font-weight: bold;
+background-color: rgba(117, 162, 196,0.5);
+box-shadow:0 1px 1px rgba(0, 0, 0,1); 
+width: 500px;
+height: 350px;
+border-radius: 10px;
+margin-left: 32%;
+margin-top: 200px;
+direction: rtl;
+padding-top: 30px
+
+}
+
+p{
+
+color: rgb(255, 255, 255);
+margin-right: 10px ;
+transition:  1s;
+}
+p:hover{
+  margin-right: 50px;
+  text-shadow: 0 10px 10px rgb(0, 0, 0);
+    color:rgb(117, 162, 196);
+}
+/* ------- styl ul-------*/
+
+ul{
+color: rgb(255, 255, 255);
+margin: 0px;
+padding: 0px;
+list-style: none;
+border-radius: 5px;
+z-index: 999;
+}
+
+.navgtion{
+width: 380px;
+margin: 20px auto;
+box-shadow:0 1px 1px rgba(0, 0, 0,0.3); 
+
+
+background-color: rgba(117, 162, 196,0.5);
+padding: 0 20px;
+min-height: 40px;
+}
+.navgtion:hover{
+ background-color:rgb(45, 92, 138);
+}
+
+.navgtion > li {
+
+padding: 15px 10px;
+float: left;
+}
+.navgtion > li a{
+color: white;
+text-decoration: none;
+
+}
+.navgtion > li a:hover{
+
+color:rgb(45, 92, 138);
+
+}
+.navgtion .menu{
+
+position: relative
+;   
+}
+.navgtion .menu .submenu{
+
+position: absolute;   
+top: 42px;
+left: 0px;
+width: 220px;
+background-color:rgb(45, 92, 138);
+padding: 10px;
+box-shadow: 0 1px 1px rgba(0, 0, 0,.5);
+display: none;
+}
+.navgtion .menu .submenu li{
+padding: 10px;
+}
+.navgtion .menu .submenu li a{
+color: white;
+text-decoration: none;
+
+
+}
+#linkk{
+transition:0.5s;
+}
+#linkk:hover{
+
+color:  rgb(4, 0, 251);
+
+}
+.navgtion .menu .submenu li  a:hover{
+color: rgb(21, 0, 255);
+margin: 20px;
+
+}
+.navgtion .menu .submenu::before{
+
+content: "";
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+border-bottom: 6px solid rgb(255, 255, 255);
+height: 0;
+width: 0;
+position: absolute;
+left: 40px;
+top: -6px;
+
+
+}
+.navgtion .menu:hover .submenu{
+display: block;
+}
+#aa{
+border-radius: 50%;
+width: 300px;
+height: 300px;
+border:  rgba(142, 184, 217,0.5) solid 5px;
+}
+#bro{
+  color: rgb(117, 162, 196);
+  text-align: center;
+ margin-top: 100px;
+ display: none;
+}
+@media screen and (max-width:  1300px){
+body{
+width: 600px;
+
+}
+.navgtion{
+
+  width: 400px;
+
+}
+    .imag{
+margin-top:20px ;
+width: 100px;
+height: 100px;
+border-radius: 10px;
+margin-left: 35%;
+
+
+}
+.plagrav{
+    height: 500px;
+margin-top: 370px; ;
+margin-left: 10%;
+}
+#my{
+    position: absolute;
+
+}
+#bro{
+    color: #7F27FF;
+    text-align: center;
+   margin-top: 00px;
+   text-decoration: none;
+   text-shadow: 0 10px 20px rgba(255, 255, 255, 0.9);;
+   display: block;
+  }
+  #welcom{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+   margin-top: 00px;
+   text-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);;
+   display: block;
+   transition: 1s;
+  }
+  #welcom:hover{
+    color:rgb(117, 162, 196);
+    text-decoration: underline;
+  }
+  .mycv{  
+    margin-right:50px ;
+    color: white;
+    margin-top: 140px;
+  }
+  .mycv:hover{
+text-decoration: underline;
+
+  }
+}
+
